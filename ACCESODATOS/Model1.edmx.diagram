@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1c2125ffaf214348b8f8cd9adfc96951" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.Buses" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Conductores" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Horarios" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Opiniones" Width="1.5" PointX="5.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Pasajeros" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Reservas" Width="1.5" PointX="8.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Rutas" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Tickets" Width="1.5" PointX="10.5" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK__Horarios__ID_Bus__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Horarios__ID_Con__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Horarios__ID_Rut__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Opiniones__ID_Ho__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Reservas__ID_Hor__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Opiniones__ID_Pa__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Reservas__ID_Pas__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Tickets__ID_Rese__47DBAE45" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
